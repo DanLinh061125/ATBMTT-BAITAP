@@ -77,7 +77,7 @@ namespace Bai2_RSA
         static void DoHieuNangRSA()
         {
             // Cho sua 1 theo yeu cau bai tap
-            int ne = 1000, nd = 200;
+            int ne = 1000, nd = 100;
             byte[] data = new byte[32];
             RandomNumberGenerator.Fill(data);
 
