@@ -6,7 +6,7 @@ using System.Text;
 // Định dạng file mã hoá: [16 byte IV][dữ liệu mã hoá]  (IV ngẫu nhiên mỗi lần mã hoá)
 class Program
 {
-    const int BufSize = 1 << 20; // 1 MB
+    const int BufSize = 1 << 22; // 4 MB
     static byte[]? key;
 
     static string Ask(string msg) { Console.Write(msg); return (Console.ReadLine() ?? "").Trim().Trim('"'); }
