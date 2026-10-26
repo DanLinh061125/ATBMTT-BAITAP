@@ -105,7 +105,7 @@ class Program
     }
 
     static void Report(string what, long bytes, TimeSpan t) =>
-        Console.WriteLine($"{what}: {bytes / 1048576.0:N1} MB trong {t.TotalSeconds:N2} s  ({bytes / 1048576.0 / t.TotalSeconds:N1} MB/s)");
+        Console.WriteLine($"{what}: {bytes / 1048576.0:N1} MB trong {t.TotalSeconds:N2} s  ({bytes / 1048576.0 / t.TotalSeconds:N1} MB/giay)");
 
     static int ReadFull(Stream s, byte[] buf)
     {
