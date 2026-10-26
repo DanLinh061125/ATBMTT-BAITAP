@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Bai1_AES/">
+    <Project Path="Bai1_AES/bai1_AES.csproj" />
+  </Folder>
+  <Project Path="Bai2_RSA/Bai2_RSA.csproj" />
+</Solution>
