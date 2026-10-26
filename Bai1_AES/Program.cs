@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// Bai 1 - AES: dang bo sung phan nhan xet
+>>>>>>> bai2-rsa
 using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Text;
