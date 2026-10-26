@@ -52,5 +52,7 @@ Dang tinh toan SHA-256 voi so mau N = 5000...
 
 Chon chuc nang: 0
 
+\## 3. Chu ky so ngau nhien
 
+\- De xuat: Su dung RSA-PSS ket hop SHA-256 de chong tan cong gia mao chu ky.
 
